@@ -1,0 +1,13 @@
+1  .Chocolate Chip ice cream   1
+2  .Strawberry ice cream       1
+3  .Vanilla ice cream          1
+4  .pista ice cream            1
+5  .kesar pista ice cream      1
+6  .kulfi                      1
+7  .mango ice cream            1
+8  .chocolate ice cream        1  
+9  .Royal falooda              1
+10 .mint chocolate chip        1
+11 .blue berry ice cream       1
+12 .Paan-Ice-Cream             1
+ 

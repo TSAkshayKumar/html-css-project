@@ -1,0 +1,264 @@
+/*big tablet & laptop: 1058 to 1130*/
+@media only screen and (max-width:1186px)
+{
+	.row,header {padding: 0 3%;}
+	h1 {font-size:170%;}
+   .plan-month {width:100%;	}
+	.image-section-in-city img {
+	width:90%;
+	height:90%;
+}
+	.logo{
+	height: 150px;
+	margin-top: 5px;
+}
+	
+}
+
+
+/*medium screen tablet and laptop:768to1058*/
+@media only screen and (max-width:900px)
+{
+	section {padding: 40px 0;}
+	
+	h1{font-size:150%;}
+	h2 {font-size: 110%;}
+	h2:after {margin: 20px auto;}
+	
+	h3 { 
+		font-size: 90%;
+		word-spacing: 0;
+		margin: ; 
+	}
+	.intro-text {	
+	width:90%;
+	margin-left:5%;
+	margin-bottom: 30px;} 
+	
+	.blog {padding: 5px;}
+	
+	.logo{
+	height: 130px;
+	margin-top: 8px;
+	}
+	.hero-text-box
+	{
+     width:70%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	top:45%;
+	left:60%;
+	}
+	.main-nav li{
+    margin-left:20px;
+	margin-top: 50px;}
+	
+.main-nav li a:link,
+.main-nav li a:visited,
+.main-nav li a:hover,
+.main-nav li a:active{font-size: 80%;}
+	
+ .btn,.btn_full,btn_half,
+	input[type=submit]{padding: 5px 15px;
+	padding-bottom: 5px;}
+	
+	body {font-size: 18px;}
+	
+	.icon-big {font-size: 200%;}
+	
+	.steps-box:first-child {
+	margin-top: 35px;
+	text-align: right;
+	padding-right:8%;
+}
+	.mobile-screen{width: 60%;}
+	.work-steps p {font-size: 80%;}
+	.work-steps div {
+	  width:35px;
+	  height:35px;
+}
+	.work-steps{
+	margin-bottom: 15px;
+}
+
+.btn-app img {
+	margin-top: 50px;
+	width:130px;
+}
+.image-section-in-city {
+	width:200px;
+	height:100px;
+}
+.point-dec {font-size: 70%;}
+.icon-small { zoom:1.0;}	
+.plan-price {font-size: 230%;}
+.plan-price span {font-size: 40%;}
+.price-per-piece{font-size: 70%;}
+.plan-month div ul li {font-size: 70%;}
+	.contact-form {width:100%;}
+}
+
+
+/*large phone and small tablet:481to767*/
+@media only screen and (max-width:767px)
+{   h1 {font-size: 180%;}
+	h3{font-size: 98%;}
+	.col {width:100%;}
+.image-section-in-city {
+	width:420px;
+	height:200px;
+	}
+	.intro-text {width:100%;
+	margin-left: 0;} 
+    .point-dec {font-size: 100%;}
+	.hero-text-box{width:100%;left:55%;}
+	.main-nav{display: none;}
+	
+	
+	/*--for switching icon in navigation--*/
+	
+	
+.position {
+  position: absolute;	
+	float: right;
+	right:5%;
+	
+}
+.menu-outline {
+	position: absolute;
+	right: 5%;
+}
+.open {
+	opacity: 0;
+}
+.close  {
+	opacity: 1;
+}
+.close-sharp {
+	position: relative;
+	right: 5%;
+}
+.initail {
+	display: block;
+	}
+
+	/*-----mobile-navigation-----*/
+	
+	
+
+	
+.mobile-nav ion-icon {
+	float : right;
+	font-size: 190%;
+	color : #fff;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.main-nav {
+	float:left;
+	margin-left: 20%;
+	padding-top: 15px;
+	
+}
+.main-nav li {
+	border-bottom:0;
+	display: block;
+	margin: 5px;
+}
+.sticky .mobile-nav ion-icon {
+		color:#535151;
+	}
+.sticky .main-nav {
+	border:0;
+	float:left;
+	margin-left: 25%;
+	padding: 5px;
+	}
+	.plan-month div ul li {font-size: 90%;}
+	.mobile-screen{width: 45%;
+	   margin-right:20%}
+	.work-steps div {
+	width:40px;
+	height:40px;
+}
+	.work-steps p{ font-size:102%;} 
+	.steps-box:last-of-type {
+		margin-top: 10%;
+}
+	cite{margin:10px 0 40px 0;}
+	.contact-form {width:100%;}
+	.footer-icon{font-size:110%;}
+	.footer-nav li,
+    .social-link li {margin-right: 5px;}
+    .footer-nav li a{word-spacing:0;}
+	.social-link {margin-right: 40%;}
+	.footer-nav {margin-left: 15%}
+	.work-steps p{margin-bottom: 30px;}
+
+}
+
+
+/*medium screen tablet and laptop:680to900*/
+@media only screen and (max-width:680px)
+{
+	h1{
+		font-size: 150%;
+	}
+	
+}
+/*--small screen mobiles--*/
+@media only screen and (max-width:580px)
+{
+	h1{
+	  font-size: 180%;
+		margin: 10px 5%;
+	}
+	
+	.logo{
+    margin: 10px 0;
+	height: 100px;
+	}
+	body {font-size: 15px;}
+
+ .btn,.btn_full,btn_half,
+	input[type=submit]{padding: 35x 10px;
+	padding-bottom: 5px;}
+ .btn-app img {
+	margin: 30px 0 0px 25%;
+	width:130px;
+   }
+  .btn-app img:last-child {margin: 5px 0 0px 25%;} 
+ .work-steps p {font-size: 79%;}
+ 	.work-steps div {
+	  width:30px;
+	  height:30px;
+}
+
+
+	.mobile-quires{padding:5px 0;}
+	.add-pad{padding: 5px 0;}
+	.image-section-in-city {
+	  width:320px;
+	  height:150px;
+	}
+	
+	
+.main-nav {
+	float:left;
+	margin: 0 5%;
+	padding-top: 5px;
+}
+.sticky .main-nav{
+		margin:2%;
+	} 	
+.social-link {margin-right: 30%;
+	             margin-top: 10px;}
+
+}
+
+	
+	
+	
+	
+	
+	
